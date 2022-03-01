@@ -1,0 +1,27 @@
+.card{
+    word-spacing: 0.05rem;
+    letter-spacing: -0.5px;
+    line-height: 18px;
+}
+.me-2{
+    padding: 0.25em 0.6em;
+    border-radius: 0.3em;
+    border: 1px solid #d3d6e4;
+    text-align: center;
+    box-shadow: 0 2px 3px rgba(0 0 0 / 0.15);
+    width: 30%;    
+}
+.me-2::placeholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+.me-2:focus {
+    outline: none;
+}
+.me-2::placeholder {
+    background-image: url(../assets/search_icon.png);
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    background-position: 2rem;
+}
